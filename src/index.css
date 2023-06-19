@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  padding: 3rem;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer aside {
+  width: 50%;
+}
+
+input,
+select {
+  width: min(20rem, 70vw);
+  padding: 0.2rem;
+  font-size: 1.2rem;
+}
+
+code {
+  background-color: #bbb;
+  border-radius: 3px;
+  padding: 0.05rem 0.2rem;
+}
